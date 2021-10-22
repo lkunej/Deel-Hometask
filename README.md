@@ -9,8 +9,15 @@ This backend exercise involves building a Node.js/Express.js app that will serve
 
 ## My Instructions
 
-Running npm start in the backend directory will run backend and frontend applications.
-The frontend App runs on localhost:3000
+Getting started:
+1. navigate to the root of the frontend (frontend)
+2. run `npm install`
+3. navigate to the root of the backend (BE-Template)
+4. run `npm install`
+5. run `npm run seed`
+6. run `npm run start`
+  -Running `npm run start` in the backend directory will run backend and frontend applications.
+  The frontend App runs on localhost:3000
 
 Have fun!
 
