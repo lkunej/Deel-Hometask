@@ -25,8 +25,14 @@ exports.getContracts = async function (req, profileId) {
     try {
       const {Contract} = req.app.get('models');
       const contracts = await Contract.findAll(
-        {where:
-          { ContractorId: profileId, status: { [ne]: 'terminated'} }
+        {
+          where: {
+            [or]: [
+              {ContractorId: profileId},
+              {ClientId: profileId}
+            ],
+            status: { [ne] : "terminated" }
+          }
         }
       );
       return contracts;
