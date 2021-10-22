@@ -21,6 +21,14 @@ Getting started:
 
 Have fun!
 
+## My summary
+Implemented endpoints:
+1. GET /contracts/:id
+2. GET /contracts
+3. GET /jobs
+4. GET /jobs/unpaid
+5. POST /jobs/:job_id/pay
+
 ## Data Models
 
 > **All models are defined in src/model.js**
