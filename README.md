@@ -12,6 +12,8 @@ This backend exercise involves building a Node.js/Express.js app that will serve
 Running npm start in the backend directory will run backend and frontend applications.
 The frontend App runs on localhost:3000
 
+Have fun!
+
 ## Data Models
 
 > **All models are defined in src/model.js**
